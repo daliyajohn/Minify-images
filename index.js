@@ -10,3 +10,5 @@ imagemin(['Exterior_4.jpg'], 'image/', {
 }).then(files => {
     console.log(files);
 });
+
+
