@@ -1,9 +1,9 @@
 # Minify-images
-Minify image using npm install imagemin with out change image quality  
+Minify image using npm install imagemin with out change image quality. 
 
- Create a folder 
+ 1. Create a folder 
  
- Create a index.js file.
+ 2. Create a index.js file.And paste this code.
  
 ```
 const imagemin = require('imagemin');
@@ -19,7 +19,10 @@ imagemin(['Exterior_4.jpg'], 'image/', {
     console.log(files);
 });
 ```
- npm install imagemin
- npm install imagemin-jpegtran
- npm install imagemin-pngquant
- Node index
+ 3. npm install imagemin
+ 
+ 4. npm install imagemin-jpegtran
+ 
+ 5. npm install imagemin-pngquant
+ 
+ 6. Node index
