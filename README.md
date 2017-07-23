@@ -2,7 +2,9 @@
 Minify image using npm install imagemin with out change image quality  
 
  Create a folder 
- Create a index.js  file .
+ 
+ Create a index.js file.
+ 
 ```
 const imagemin = require('imagemin');
 const imageminJpegtran = require('imagemin-jpegtran');
